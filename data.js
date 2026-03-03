@@ -11,7 +11,7 @@ let sudahAdzan = {
   Isya:false
 }
 
-const lokasiId = 1605
+const lokasiId = 1602
 
 fetch(`https://api.myquran.com/v2/sholat/jadwal/${lokasiId}/${new Date().toISOString().slice(0,10).replace(/-/g,'/')}`)
 .then(r => r.json())
@@ -96,6 +96,7 @@ setInterval(() => {
   }
 
 }, 1000)
+
 
 
 
