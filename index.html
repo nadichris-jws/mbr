@@ -349,7 +349,7 @@ let countdownInterval = null;
 let sedangProses = false; // supaya tidak double trigger												  											 
 /* ================= IQOMAH COUNTDOWN ================= */
 function mulaiIqomah(){
-  let durasi = 1 * 60; // 10 menit
+  let durasi = 10 * 60; // 10 menit
   iqomahOverlay.style.display = "flex";
   countdownInterval = setInterval(() => {
   let menit = Math.floor(durasi / 60);
@@ -403,3 +403,4 @@ setInterval(() => {
 
 </body>
 </html>
+
