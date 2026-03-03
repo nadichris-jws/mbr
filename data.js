@@ -83,7 +83,7 @@ setInterval(() => {
       ${next.nama.toUpperCase()}
     </span>
     : <span style="color:white;">
-      -${h}: ${m}: ${s}
+      ${h}: ${m}: ${s}
     </span>
   `;
 
@@ -96,6 +96,7 @@ setInterval(() => {
   }
 
 }, 1000)
+
 
 
 
